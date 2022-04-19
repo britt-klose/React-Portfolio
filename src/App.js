@@ -1,14 +1,16 @@
 import React from "react";
 import "./App.css";
-//import all tags going to use below 
+//import all files going to use 
+import Header from "./components/Header.js";
+import Footer from "./components/Footer";
+import Portfolio from "./Pages/portfolio";
 
 function App () {
     return(
         <div className="app">
-        {/*//where i'll put all tags for imports
-        ie <Navbar/>
-        */}
-    
+        <Header />
+        <Portfolio/>
+        <Footer />
         </div>
     );
 };
