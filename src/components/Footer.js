@@ -1,5 +1,6 @@
 import React from "react";
 import{Icon} from '@iconify/react';
+
 function Footer (){
     return(
         <div class="container">
@@ -11,12 +12,12 @@ function Footer (){
                             <Icon icon="dashicons:email" style={{fontSize:'24px'}}/>
                         </a>
                     </div>
-                    <div>
+                    <div className="col d-flex justify-content-center text-center">
                         <a href="https://www.linkedin.com/in/brittany-klose-3a25a7143/" target="_blank">
                             <Icon icon= "logos:linkedin-icon"/>
                         </a>
                     </div>
-                    <div>
+                    <div className="col d-flex justify-content-start text-start">
                         <a href="  https://github.com/britt-klose" target="_blank">
                             <Icon icon="icon-park:github"/>
                         </a>

@@ -3,7 +3,7 @@ import React from 'react';
 // Here we destructure our props into their own distinct variables
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" id="navBar">
       <li className="nav-item">
         <a
           href="#about"
