@@ -1,12 +1,12 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+//import Navigation from "../components/Navigation";
+//import Jumbotron from 'react-bootstrap/Jumbotron';
 
 function Header (){
 
     return(
-        <div>
-        <p>header test</p>
-        <Navigation/>
+        <div> 
+        <h1>Brittany Klose</h1>
         </div>
     )
 };

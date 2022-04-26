@@ -2,7 +2,7 @@ import React, {useState}  from "react";
 import About from '../Pages/about';
 import Contact from '../Pages/contact';
 import Portfolio from '../Pages/portfolio';
-import Resume from '../Pages/resume;'
+import Resume from '../Pages/resume';
 import NavTabs from "./Navigation";
 
 function Navigation() {
