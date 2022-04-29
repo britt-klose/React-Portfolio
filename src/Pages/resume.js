@@ -1,12 +1,15 @@
 import React from "react";
 import resume from '../Assets/images/resume.PDF';
+import {Button} from 'react-bootstrap';
 
 function Resume (){
     return(
         <div id="resumePg">
-             <a class="link" href={resume} target="_blank">
-                 <p>Download my resume</p>
+             <a className="link" href={resume} target="_blank">
+             <Button variant="outline-secondary" id='resume'>Download Resume</Button>
              </a>
+             <br/>
+             <br/>
              <h5>Front End Proficiencies</h5>
              <ul>
                  <li>HTML</li>
@@ -26,6 +29,7 @@ function Resume (){
                  <li>NoSQL</li>
                  <li>GraphQL</li>
              </ul>
+             <br/>
         </div>
     )
 };
