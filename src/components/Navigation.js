@@ -3,9 +3,10 @@ import React from 'react';
 // Here we destructure our props into their own distinct variables
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs" id="navBar">
+    <div className='navcontent'>
+    <ul className="nav nav-tabs" id='navtest'>
       <li className="nav-item">
-        <a
+        <a id="nav-link"
           href="#about"
           onClick={() => handlePageChange('About')}
       
@@ -16,7 +17,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a id="nav-link"
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
         
@@ -27,7 +28,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a id="nav-link"
           href="#resume"
           onClick={() => handlePageChange('Resume')}
 
@@ -37,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
       <li className="nav-item">
-        <a
+        <a id="nav-link"
           href="#contact"
 
           onClick={() => handlePageChange('Contact')}
@@ -47,6 +48,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    <br/>
+    <br/>
+    </div>
+    
   );
 }
 

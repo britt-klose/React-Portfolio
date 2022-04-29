@@ -9,17 +9,17 @@ function Footer (){
                 <div className="row">
                     <div className="col d-flex justify-content-end text-end">
                         <a href="mailto: brittany.klose@yahoo.com">
-                            <Icon icon="dashicons:email" style={{fontSize:'24px'}}/>
+                            <Icon icon="dashicons:email" id='icons' style={{fontSize:'30px'}}/>
                         </a>
                     </div>
                     <div className="col d-flex justify-content-center text-center">
                         <a href="https://www.linkedin.com/in/brittany-klose-3a25a7143/" target="_blank">
-                            <Icon icon= "logos:linkedin-icon"/>
+                            <Icon icon= "fa-brands:linkedin"  id='icons'style={{fontSize:'30px'}}/>
                         </a>
                     </div>
                     <div className="col d-flex justify-content-start text-start">
                         <a href="  https://github.com/britt-klose" target="_blank">
-                            <Icon icon="icon-park:github"/>
+                            <Icon icon="ant-design:github-filled" id='icons' style={{fontSize:'30px'}}/>
                         </a>
                     </div>
                 </div>
@@ -33,3 +33,4 @@ function Footer (){
 };
 
 export default Footer;
+

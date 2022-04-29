@@ -4,11 +4,10 @@ import React from "react";
 function Project (props){
     return(
         <div>
-        <p>Project card</p>
-        <p>{props.name}</p>
+        <h2>{props.name}</h2>
         <p>{props.github}</p>
         <p>{props.deploy}</p>
-        <p>{props.img}</p>
+        <img id='img-cards'src={props.img}/>
         
         </div>
     )
