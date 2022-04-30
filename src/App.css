@@ -1,15 +1,11 @@
 body{
-    background-color: rgb(79, 175, 230);
     font-family: 'Courier New', Courier, monospace;
 }
-a{
-    color: white;
+*{
+   background-color: rgb(90, 118, 143;
 }
 
-.jumbo{
-    background-color: rgb(50, 48, 44);
-    color: white;
-}
+
 #navBar{
     background-color: rgb(35, 32, 30);
     color: white;
