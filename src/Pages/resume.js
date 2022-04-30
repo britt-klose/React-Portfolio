@@ -6,7 +6,7 @@ function Resume (){
     return(
         <div id="resumePg">
              <a className="link" href={resume} target="_blank">
-             <Button variant="outline-secondary" id='resume'>Download Resume</Button>
+             <Button variant="outline-light" id='resume'>Download Resume</Button>
              </a>
              <br/>
              <br/>
@@ -29,6 +29,7 @@ function Resume (){
                  <li>NoSQL</li>
                  <li>GraphQL</li>
              </ul>
+             <br/>
              <br/>
         </div>
     )

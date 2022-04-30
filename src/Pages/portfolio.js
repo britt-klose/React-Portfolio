@@ -15,7 +15,7 @@ function Portfolio (){
 
            <div className="contentBox" id="projects-page">
             <Project name="Tech Blog"
-                img={blog}/>
+                img={blog}id="pics"/>
             <Button variant="outline-light"  id="prjct-btn" href="https://github.com/britt-klose/MVC-Tech_Blog-14" target="_blank">See Github</Button>
             <Button variant="outline-light"  id="prjct-btn" href="https://britt-blog-heroku.herokuapp.com/" target="_blank">View App</Button>    
             </div> 

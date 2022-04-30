@@ -2,31 +2,80 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 *{
-   background-color: rgb(90, 118, 143;
+   background-color: rgb(90, 118, 143);
+   
 }
 
-
-#navBar{
-    background-color: rgb(35, 32, 30);
+#headingpart{
+    background-color: rgb(41, 41, 41);
     color: white;
+    display: inline-block;
+}
+.nameHeader{
+    background-color: rgb(41, 41, 41);
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.nav-item{
+    margin-top: -33px;
+}
+#nav-link{
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: inline-block;
+    margin-top: -10px;
 }
 
 #about-me{
-    background-color: rgb(90, 118, 143);
+    color: white;
 }
-
-.footerContent{
-    color:brown
+#portfolioo{
+    color: white;
 }
-
-#resumePg{
-    align-items: center;
+#prjct-btn{
+    margin-left: 10px;
 }
-
 #projects-page{
-    background-color: purple;
+    margin-bottom: 90px;
+    
+}
+#img-cards{
+    margin-left: -5px;
+    height: 400px;
+}
+#resumePg{
+    padding-left: 100px;
+    color: white;
+}
+#resume:hover{
+    color: rgb(110, 111, 112);
+}
+#contact{
+    width: 700px;
 }
 
 .contactForm{
-    background-color: aquamarine;
+    color:white;
+    display: inline-block;
+    padding-left: 15%;
+}
+#message{
+    color:white
+}
+#cont-btn{
+    background-color:rgb(41, 41, 41) ;
+}
+
+#cont-btn:hover{
+    background-color:rgb(101, 100, 100) ;
+}
+
+#icons{
+    color: rgb(41, 41, 41);
+}
+
+#icons:hover{
+    color: rgb(130, 129, 129);
 }
