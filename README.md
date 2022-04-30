@@ -23,7 +23,7 @@ Welcome to my portfolio! Here you will find some of my best projects and works, 
 Follow this link to view my portfolio website!
 link: https://britt-klose.github.io/React-Portfolio/
 
-![alt text](assets/images/portfolio.png)
+![alt text](Assets/images/portfolio.png)
 
 ## License
 This application has no license 
